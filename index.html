@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>| STUDY.UA</title>
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,6 +20,80 @@
     />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/welcome.css" />
+    <link rel="stylesheet" href="./assets/css/block2.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css">
   </head>
-  <body></body>
+  <body>
+    <section class="welcome">
+      <header class="welcome__header">
+        <a href="" class="logo">
+          <picture>
+            <source
+              srcset="./assets/images/logo-mb.png"
+              media="(max-width: 768px)"
+            />
+            <img src="./assets/images/logo-dt.png" alt="" />
+          </picture>
+        </a>
+      </header>
+      <article class="welcome__article">
+        <h1 class="welcome__heading">
+          Шукаєте подарунок дитині до новорічних свят?
+        </h1>
+        <p>
+          Подаруйте сертифікат на літню подорож за кордон! <br />Лос-Анджелес,
+          Нью-Йорк, Торонто або Канкун.. У нас
+          <strong>понад 100 ідей для незабутнього подарунка!</strong>
+        </p>
+        <a href="#sertificate" class="btn text-overflow">Подарувати</a>
+      </article>
+    </section>
+    <section class="sertificate">
+      <div class="sertif">
+        <picture>
+          <source
+            srcset="./assets/bg-images/sertificate-mb.png"
+            media="(max-width: 768px)"
+          />
+          <img src="./assets/bg-images/sertificate-dt.png " alt="" />
+        </picture>
+        <article>
+          <h2>
+            Сертифікат <br />на групову поїздку <br />за кордон для вашої
+            <br />дитини
+          </h2>
+          <p>
+            чудовий спосіб висловити турботу, обрати корисний подарунок, який
+            залишить враження на все життя!
+          </p>
+        </article>
+      </div>
+      <div class="sertif-reg">
+        <input type="text" placeholder="Ваше Ім’я" name="email" required />
+        <input
+          type="phone"
+          placeholder="Номер телефону"
+          name="email"
+          required
+        />
+        <input type="text" placeholder="E-Mail" name="email" required />
+        <button type="submit" class="reg-btn">Хочу сертифікат</button>
+      </div>
+    </section>
+    <footer>
+      <section class="foot-sec">
+        <div class="foot1">
+          <h2>STUDY.UA.</h2>
+          <p>Київ, вул. Драгомирова, 16 <br>метро «Дружби Народів»</p>
+        </div>
+        <div class="foot2">
+          <a href="" class="foot-a">+38 044 500-03-20</a>
+          <a href="" class="foot-a">+38 044 500-03-20</a>
+          <a href="" class="foot-a">+38 044 500-03-20</a>
+        </div>
+      </section>
+      <p class="foot-end">Всі права захищені. 1999—2021(c)</p>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,49 @@
+.welcome{
+    /* height: 100vh; */
+    padding: var(--space-size);
+    min-width: 320px;
+    background-color: var(--color-main);
+    background-image: url(./../bg-images/welcome-bg-mb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center bottom;
+    color: var(--color-light);
+}
+.logo{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.welcome__article{
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+}
+.welcome__heading{
+    margin-top: 30px;
+    font-size: 1.375rem;
+    line-height: 1.23;
+}
+.welcome__article p{
+    padding-top: 0.7rem;
+    font-weight: 600;
+}
+.welcome__article strong{
+    font-weight: 900;
+}
+.welcome__article .btn{
+    min-width: 200px;
+    margin-top: auto;
+
+    align-self: center;
+
+    background-color: var(--color-light);
+    color: var(--color-main);
+}
+
+@media (min-width: 768px){
+    .welcome{
+        background-image: url(./../bg-images/welcome-bg-dt.png);
+    }
+}

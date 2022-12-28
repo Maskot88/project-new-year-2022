@@ -1,0 +1,51 @@
+.sertificate{
+    /* height: 100vh; */
+    padding: var(--space-size);
+    min-width: 320px;
+    background-color: var(--color-main);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  top;
+    color: var(--color-light);
+}
+.sertif{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    justify-content: space-around;
+    line-height: 1.23;
+}
+.sertif picture{
+    margin-bottom: 0.8rem;
+}
+.sertif-reg h2{
+    font-size: 22px;
+    margin-bottom: 1rem  ;
+}
+.sertif-reg{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+}
+.sertif-reg input{
+    padding: 13px 0;
+    border-radius: 70px;
+    margin-bottom: 1.3rem;
+}
+.sertif-reg ::placeholder{
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.reg-btn{
+    min-width: 200px;
+    padding: 10px 0;
+    border-radius: 70px;
+    border-color: #FFFFFF;
+    margin-bottom: 1.5rem;
+    background-color: var(--color-main);
+    color: var(--color-light);
+    font-weight: 900;
+}

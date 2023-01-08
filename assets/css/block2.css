@@ -49,3 +49,38 @@
     color: var(--color-light);
     font-weight: 900;
 }
+
+@media (min-width: 1000px){
+    .sertif{
+        margin-bottom: 0;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+    .sertif__picture{
+        max-width: 30%;
+    }
+    .sertif__article{
+        max-width: 30%;
+    }
+    .sertif__article h2{
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    .sertif__article p{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+    .sertif-reg{
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .sertif-reg input{
+        padding: 26px 20px;
+        margin-right: 20px;
+    }
+    .reg-btn{
+        padding: 26px 20px;
+    }
+}

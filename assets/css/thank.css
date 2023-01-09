@@ -53,3 +53,37 @@
     height: 1px;
     display: block;
 }
+
+@media (min-width: 1000px){
+    .thank{
+        background-image: url(./../bg-images/thank-dt.png);
+    }
+    br {
+        display: none;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .thank__article{
+        margin-left: 17%;
+        width: 42%;
+        height: 88vh;
+    }
+    .thank__heading{
+        margin-top: 5rem;
+        font-size: 2.6rem;
+    }
+    .thank__article p:nth-child(2){
+        font-size: 0.8rem;
+    }
+    .thank__article p:nth-child(3){
+        font-size: 0.8rem;
+    }
+    .thank .btn{
+        max-width: 400px;
+        margin-top: 3rem;
+        align-self: start;
+        padding-left: 2rem;
+    }
+}
